@@ -20,11 +20,9 @@ public class RectangleMath
 		double height = in.nextDouble();
 		in.nextLine();
 		
-		System.out.printf(%(width * height), int);
-		System.out.printf("Perimeter: " + (width * 2 + height * 2), );
-		
-		
-		
+		System.out.printf("Area: %.2f\n", (width * height));
+		System.out.printf("Perimeter: %.2f", (width * 2 + height * 2));
+
 	}
 	
 }
